@@ -540,7 +540,8 @@ margin: 10px;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-around
+        justify-content: space-around;
+        padding: 20px;
         
     }
     .hero>img{
@@ -553,6 +554,9 @@ margin: 10px;
 }
 .coursescard .card{
 
+}
+#popular{
+    padding: 20px;
 }
 #popular_courses{
     display: flex;
@@ -574,12 +578,16 @@ margin: 10px;
     text-align: center;
 }
 
+#testimonials{
+padding: 20px;
+}
 
 .testimonials_container{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
     align-items: center;
+    gap: 30px;
     margin: 50px 0;
 }
 .testimonials_container .card{
@@ -683,7 +691,7 @@ ul li{
     padding: 20px;
     margin-top: 20px;
     display: flex;
-    justify-content: space-around;
+    flex-direction: column;
     align-items: center;
 }
 .icons i {
