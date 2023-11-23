@@ -698,6 +698,7 @@ form, input {
     line-height: 20px;
     text-align: end;
     margin-top: 10px;
+    width: 100%;
 }
 #email{
     background: #2D4059;
